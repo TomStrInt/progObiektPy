@@ -1,10 +1,12 @@
 import sys
 from PySide6.QtWidgets import QApplication, QPushButton, QLabel
 from PySide6.QtCore import Slot
-from PySide6.QtGui import QdoubleValidator
+
 
 app = QApplication(sys.argv)
 label = QLabel("Hello World!")
+# This HTML approach will be valid too!
+#label = QLabel("<font color=blue size=40>Hello World!</font>")
 label.show()
 
 
