@@ -16,7 +16,7 @@ class MainWindow(QMainWindow):
 
         self.output_label = QLabel(self)
         self.output_label.setGeometry(50, 100, 300, 30)
-        self.output_label.setText("Wynik:") 
+        self.output_label.setText("") 
         self.output_label.setStyleSheet("font-size: 25px; color: yellow;") 
 
         # button -- wynik
