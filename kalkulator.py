@@ -28,7 +28,7 @@ class MainWindow(QMainWindow):
         try:
             equation = self.input_field.text()
             result = eval(equation)  
-            self.output_label.setText(f"Wynik: {result}")
+            self.output_label.setText(f"{result}")
         except:
             self.output_label.setText("Blad!: zle wpisales!")
 
